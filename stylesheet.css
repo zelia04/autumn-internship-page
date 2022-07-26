@@ -1,7 +1,20 @@
+body{
+    background-color: #fdf7f0;
+}
+
 #header img{
     text-align:center;
 }
 
-h1{
+
+.title1{
+    color:#FDBB6A;
     text-align:center;
+    font-size:80px;
+}
+
+.title2{
+    color:#F4766A;
+    text-align:center;
+    font-size:80px;
 }
