@@ -17,3 +17,11 @@ body{
     text-align:center;
     font-size:80px;
 }
+
+.group{
+    margin-bottom:30px;
+}
+
+.summary{
+    text-align:center;
+}
