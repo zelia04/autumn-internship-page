@@ -38,10 +38,6 @@ body{
     margin-top:35px;
 }
 
-h1{
-    text-align:center;
-}
-
 .cards-wrapper {
     display: flex;
     /* justify-content: center; */
