@@ -24,7 +24,7 @@
     border: 3px solid #FDBB6A;
     position: absolute;
     bottom: 20px;
-    left: 0px;
+    right:20px;
 }
 
 .border-2 {
@@ -33,17 +33,17 @@
     border: 3px solid #FDBB6A;
     position: absolute;
     bottom: 20px;
-    right: 0px;
+    left:20px;
 }
 
 .text-1 {
     margin-right: 20px;
-    text-align: right;
+    text-align:left;
 }
 
 .text-2 {
     margin-left: 20px;
-    text-align: left;
+    text-align:right;
 }
 
 .header {
