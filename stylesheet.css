@@ -153,3 +153,9 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
         font-size: 40px;
     }
 }
+
+@media only screen and (max-width: 390px){
+    .internship_page h1{
+        font-size: 25px;
+    }
+}
