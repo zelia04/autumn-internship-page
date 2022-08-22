@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.banner {
+    max-width: 100%;
+}
+
 .group_pic {
     max-width: 100%;
 }
@@ -86,7 +90,6 @@ body{
 
 .orangebg{
     background-image: url("pictures/orangebg.jpg");
-    max-width: 100%;
 }
 
 .recollections{
