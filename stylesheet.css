@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.group_pic {
+    max-width: 100%;
+}
+
 .parent {
     position:relative;
     background-color:transparent;
@@ -82,6 +86,7 @@ body{
 
 .orangebg{
     background-image: url("pictures/orangebg.jpg");
+    max-width: 100%;
 }
 
 .recollections{
@@ -138,4 +143,10 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
     font-size:80px;
     margin-top:35px;
     margin-bottom:35px;
+}
+
+@media only screen and (max-width: 767px){
+    .internship_page h1{
+        font-size: 40px;
+    }
 }
