@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.internship_page {
+    overflow: hidden;
+}
+
 .banner {
     max-width: 100%;
 }
