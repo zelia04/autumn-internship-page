@@ -94,6 +94,7 @@ body{
 
 .orangebg{
     background-image: url("pictures/orangebg.jpg");
+    background-size: cover;
 }
 
 .recollections{
@@ -101,6 +102,7 @@ body{
     text-align:center;
     font-size:80px;
     margin-top:35px;
+    padding-top: 35px;
 }
 
 .internship_page .card {
