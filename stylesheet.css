@@ -111,7 +111,7 @@ body{
 .cards-wrapper {
     margin-top:35px;
     display: flex;
-     margin-bottom:35px;
+    margin-bottom:35px;
 }
 
 
@@ -169,6 +169,77 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
 @media only screen and (max-width: 767px){
     .internship_page h1{
         font-size: 40px;
+    }
+
+    .border-1, .border-2{
+        display: none;
+    }
+
+    .lucretia{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid #FDBB6A;
+    bottom: 20px;
+    margin-top: 20px;
+    }
+
+    .zelia{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid #FDBB6A;
+    bottom: 20px;
+    }
+
+    .text-1 .header {
+        position: relative;
+        bottom: 170px;
+        font-size: 48px;
+    }
+
+    .text-1 p {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .column-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text-2 .header {
+        position: relative;
+        bottom: 170px;
+        font-size: 48px;
+    }
+
+    .text-2 p {
+        position: relative;
+        bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 575px){
+    .text-1 .header{
+        bottom: 150px;
+    }
+
+    .text-2 .header{
+        bottom: 150px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .text-1 .header{
+        font-size: 25px;
+        bottom: 50px;
+    }
+
+    .text-2 .header{
+        font-size: 25px;
+        top: -50px;
     }
 }
 
