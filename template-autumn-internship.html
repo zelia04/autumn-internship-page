@@ -7,13 +7,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/slick/slick.css" />
     
 
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
 
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
@@ -26,7 +28,7 @@
 
     <div class="row">
         <div class="col-12 header">
-            <img src="pictures/header.jpg" class="banner" alt="header" />
+            <img src="assets/images/header.jpg" class="banner" alt="header" />
         </div>
     </div>
 
@@ -38,7 +40,7 @@
 
         <div class="row">
             <div class="col-md-6 text-center group">
-                <img src="pictures/group.jpeg" class="group_pic" alt="group" />
+                <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
             </div>
 
             <div class="col-md-6 summary">
@@ -51,13 +53,65 @@
         </div>
     </div>
 
-    <div class="orangebg">
+    <div class="orangebg" style="background-image: url('assets/images/orangebg.jpg')">
 
 
         <h1 class="recollections">Our Recollections</h1>
 
+        <div class="container">
+            <ul class="slider">
+    
+            <li>
+                <div class="row">
+                <div class="col-md-6 text-center group-picture">
+                <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
+                </div>
+            
+            <div class="col-md-6 summary">
+                <p class="description">This was both our first time going through a Internship Program from July to September 2022.
+                    Our role at OANGLE was being a Web Developer Intern. We have worked under the guidance of Web
+                    Developer interns and Project Managers. The time we spent here was an astonishing one as we have
+                    accumulated plentiful knowledge and experiences.
+                    Scroll down as we bring you through a summary of our 2 months internship program!</p>
+            </div>
+            </div>
+            </li>
+    
+            <li>
+                <div class="row">
+                <div class="col-md-6 text-center group-picture">
+                <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
+                </div>
+        
+            <div class="col-md-6 summary">
+                <p class="description">This was both our first time going through a Internship Program from July to September 2022.
+                    Our role at OANGLE was being a Web Developer Intern. We have worked under the guidance of Web
+                    Developer interns and Project Managers. The time we spent here was an astonishing one as we have
+                    accumulated plentiful knowledge and experiences.
+                    Scroll down as we bring you through a summary of our 2 months internship program!</p>
+            </div>
+            </div>
+            </li>
+            <li>
+                <div class="row">
+                <div class="col-md-6 text-center group-picture">
+                <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
+                </div>
+           
+            <div class="col-md-6 summary">
+                <p class="description">This was both our first time going through a Internship Program from July to September 2022.
+                    Our role at OANGLE was being a Web Developer Intern. We have worked under the guidance of Web
+                    Developer interns and Project Managers. The time we spent here was an astonishing one as we have
+                    accumulated plentiful knowledge and experiences.
+                    Scroll down as we bring you through a summary of our 2 months internship program!</p>
+            </div>
+        </div>
+            </li>
+        </ul>
+    </div>
 
-        <div id="carouselCards" class="col-12 carousel slide" data-ride="carousel">
+
+        <!-- <div id="carouselCards" class="col-12 carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="cards-wrapper">
@@ -133,7 +187,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
+        </div> -->
     </div>
 
     <div class="container">
@@ -145,7 +199,7 @@
         <div class="col-sm-12 col-md-6 mb-sm-4 mb-md-0 film-item">
             
             <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="pictures/me.jfif" alt="Card image cap">
+            <img class="card-img-top" src="assets/images/me.jfif" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Lucretia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -156,7 +210,7 @@
     <div class="col-sm-12 col-md-6 mb-sm-4 mb-md-0 film-item">
             
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="pictures/me.jfif" alt="Card image cap">
+            <img class="card-img-top" src="assets/images/me.jfif" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Zelia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -217,9 +271,7 @@
 </main>
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -228,6 +280,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+
+
+$('.slider').slick({
+  arrows:true,
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1
+//   appendDots: $('.slick-nav')
+//   appendDots: '.slick-dots'
+            // prevArrow: '<button type="button" class="slick-prev"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>',
+            // nextArrow: '<button type="button" class="slick-next"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>'
+});
+
+    </script>
+
 </body>
 
 </html>
