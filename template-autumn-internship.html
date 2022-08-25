@@ -53,21 +53,32 @@
         </div>
     </div>
 
-    <div class="orangebg" style="background-image: url('assets/images/orangebg.jpg')">
+    <div class="orangebg">
 
 
         <h1 class="recollections">Our Recollections</h1>
 
         <div class="container">
+
+            <div class="slick-nav">
+
+                <span class="captions one" style="left: 26%;">Jul 2022</span>
+
+                <span class="captions two" style="left: 32%;">Aug 2022</span>
+
+                <span class="captions three" style="left: 38%;">Sept 2022</span>
+
+            </div>
+
             <ul class="slider">
     
             <li>
-                <div class="row">
-                <div class="col-md-6 text-center group-picture">
+                <div class="centralise row">
+                <div class="col-md-5 text-center group-picture">
                 <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
                 </div>
             
-            <div class="col-md-6 summary">
+            <div class="col-md-5 desc">
                 <p class="description">This was both our first time going through a Internship Program from July to September 2022.
                     Our role at OANGLE was being a Web Developer Intern. We have worked under the guidance of Web
                     Developer interns and Project Managers. The time we spent here was an astonishing one as we have
@@ -78,12 +89,12 @@
             </li>
     
             <li>
-                <div class="row">
-                <div class="col-md-6 text-center group-picture">
+                <div class="centralise row">
+                <div class="col-md-5 text-center group-picture">
                 <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
                 </div>
         
-            <div class="col-md-6 summary">
+            <div class="col-md-5 desc">
                 <p class="description">This was both our first time going through a Internship Program from July to September 2022.
                     Our role at OANGLE was being a Web Developer Intern. We have worked under the guidance of Web
                     Developer interns and Project Managers. The time we spent here was an astonishing one as we have
@@ -93,12 +104,12 @@
             </div>
             </li>
             <li>
-                <div class="row">
-                <div class="col-md-6 text-center group-picture">
+                <div class="centralise row">
+                <div class="col-md-5 text-center group-picture">
                 <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
                 </div>
            
-            <div class="col-md-6 summary">
+            <div class="col-md-5 desc">
                 <p class="description">This was both our first time going through a Internship Program from July to September 2022.
                     Our role at OANGLE was being a Web Developer Intern. We have worked under the guidance of Web
                     Developer interns and Project Managers. The time we spent here was an astonishing one as we have
@@ -197,6 +208,8 @@
 
 <div class="row gx-5 card-spacing">
         <div class="col-sm-12 col-md-6 mb-sm-4 mb-md-0 film-item">
+
+            <div class="film-inner">
             
             <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="assets/images/me.jfif" alt="Card image cap">
@@ -204,10 +217,13 @@
               <h5 class="card-title">Lucretia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            </div>
+        </div>
+        </div>
         </div>
 
     <div class="col-sm-12 col-md-6 mb-sm-4 mb-md-0 film-item">
+
+        <div class="film-inner">
             
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="assets/images/me.jfif" alt="Card image cap">
@@ -217,6 +233,7 @@
             </div>
         </div>
 
+    </div>
     </div>
 
 </div>
@@ -292,8 +309,8 @@ $('.slider').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 1,
-  slidesToScroll: 1
-//   appendDots: $('.slick-nav')
+  slidesToScroll: 1,
+  appendDots: $('.slick-nav')
 //   appendDots: '.slick-dots'
             // prevArrow: '<button type="button" class="slick-prev"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>',
             // nextArrow: '<button type="button" class="slick-next"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>'

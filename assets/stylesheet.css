@@ -10,6 +10,7 @@
 
 .group_pic {
     max-width: 100%;
+    box-shadow: 5px 5px 29px 5px rgb(105 56 69 / 31%);
 }
 
 .parent {
@@ -101,7 +102,7 @@ body{
 }
 
 .orangebg{
-    background-size: cover;
+    background-image: linear-gradient(to right, #FDBB6A, #F8A261, #F89353, #F47655);
     padding-bottom: 50px;
 }
 
@@ -116,6 +117,12 @@ body{
 
 .internship_page .card {
     margin-bottom: 15px;
+}
+
+.centralise {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* @media screen and (min-width: 568px){
@@ -173,11 +180,26 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
     font-size: 28px;
 }
 
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Slick Slider */
+
+.slick-dotted.slick-slider {
+    margin-top: 50px;
+}
 
 .slick-prev:before,
 .slick-next:before {
   color: red;
+}
+
+button.slick-prev.slick-arrow {
+    z-index: 1;
 }
 
 .slick-prev {
@@ -185,7 +207,92 @@ left: 0px;
 }
 
 .slick-next {
-right: 20px;
+right: 0px;
+}
+
+.slick-nav {
+    position: relative;
+    bottom: 55px;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px;
+    color: #FDF7F0;
+    opacity: 20%;
+}
+
+.slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 84px;
+    padding: 0;
+}
+
+ul.slider.slick-initialized.slick-slider.slick-dotted {
+    padding: 0;
+}
+
+span.captions {
+    position: relative;
+    top: 48px;
+    /* left: 30%; */
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 767px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 75px;
+    padding: 0;
+}
+
+/* .slick-next, .slick-prev {
+    right: -20px;
+} */
+
+.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: -20%;
+    }
+
+    .slick-slide img {
+        width: 80% !important;
+        }
+
+        .description{
+            width: 80% !important;
+        }
+
+}
+
+@media only screen and (max-width: 540px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 60px;
+    padding: 0;
+}
+}
+
+@media only screen and (max-width: 450px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 50px;
+    padding: 0;
+}
+}
+
+@media only screen and (max-width: 390px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 30px;
+    padding: 0;
+}
 }
 
 /* .slick-dots {
@@ -204,11 +311,11 @@ padding-top: 100px;
 }
 
 .slick-slide img {
-width: 80%;
+width: 100%;
 }
 
 .description {
-width: 80%;
+width: 100%;
 }
 
 .group-picture {
@@ -276,6 +383,35 @@ height: 50px;
     background-size: cover;
     width: 50px;
     height: 50px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #FDF7F0;
+    opacity: unset;
+}
+
+.film-inner{
+    background: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    min-width: -webkit-fill-available;
+}
+
+.film-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+img.card-img-top {
+    border-radius: 7px;
+}
+
+.internship_page .card {
+    margin-bottom: 15px;
+    border: 0px;
 }
 
 /* Responsive */

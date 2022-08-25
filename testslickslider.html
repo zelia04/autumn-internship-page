@@ -110,6 +110,61 @@
     height: 50px;
 }
 
+.slick-nav {
+    position: relative;
+    bottom: 55px;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px;
+
+}
+
+.slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 84px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 767px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 75px;
+    padding: 0;
+}
+
+}
+
+@media only screen and (max-width: 540px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 60px;
+    padding: 0;
+}
+}
+
+@media only screen and (max-width: 450px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 50px;
+    padding: 0;
+}
+}
+
+@media only screen and (max-width: 390px){
+    .slick-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 30px;
+    padding: 0;
+}
+}
+
 /* .slick-dotted.slick-slider {
     padding-top: 100px;
 } */
@@ -124,6 +179,11 @@
 <!-- <div class="slider"> -->
     <!-- <div class="row"> -->
 <div class="container">
+    
+    <div class="slick-nav">
+
+    </div>
+
         <ul class="slider">
 
         <li>
@@ -173,6 +233,8 @@
     </div>
         </li>
     </ul>
+
+</div>
 </div>
 
     <!-- </div> -->
@@ -201,8 +263,8 @@ $('.slider').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 1,
-  slidesToScroll: 1
-//   appendDots: $('.slick-nav')
+  slidesToScroll: 1,
+  appendDots: $('.slick-nav')
 //   appendDots: '.slick-dots'
             // prevArrow: '<button type="button" class="slick-prev"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>',
             // nextArrow: '<button type="button" class="slick-next"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>'
