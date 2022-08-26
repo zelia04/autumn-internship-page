@@ -296,6 +296,12 @@ span.captions {
 }
 }
 
+@media only screen and (max-width: 390px){
+.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+    margin-top: -40%;
+}
+}
+
 /* .slick-dots {
 position: absolute;
 display: block;
@@ -320,7 +326,7 @@ font-family:"poppin", sans-serif;
 color:#FDF7F0;
 font-size:30px;
 font-weight:600px;
-width:100%;
+width:80%;
 }
 
 .description {
@@ -451,6 +457,7 @@ button#slick-slide-control00:after {
     opacity: 20%;
     position: absolute;
     top: 130%;
+    left: -3px;
 }
 
 button#slick-slide-control01:after {
@@ -461,6 +468,7 @@ button#slick-slide-control01:after {
     opacity: 20%;
     position: absolute;
     top: 130%;
+    left: -9px;
 }
 
 button#slick-slide-control02:after {
@@ -471,6 +479,7 @@ button#slick-slide-control02:after {
     opacity: 20%;
     position: absolute;
     top: 130%;
+    left: -6px;
 }
 /* Cards */
 
