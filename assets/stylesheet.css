@@ -448,6 +448,7 @@ height: 50px;
     color: #FDF7F0;
     opacity: 100%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
 }
 
@@ -458,6 +459,7 @@ height: 50px;
     color: #FDF7F0;
     opacity: 100%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
 }
 
@@ -468,6 +470,7 @@ height: 50px;
     color: #FDF7F0;
     opacity: 100%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
 }
 
@@ -478,8 +481,9 @@ button#slick-slide-control00:after {
     color: #FDF7F0;
     opacity: 20%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
-    left: 0px;
+    left: -2px;
 }
 
 button#slick-slide-control01:after {
@@ -489,6 +493,7 @@ button#slick-slide-control01:after {
     color: #FDF7F0;
     opacity: 20%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
     left: -5px;
 }
@@ -500,6 +505,7 @@ button#slick-slide-control02:after {
     color: #FDF7F0;
     opacity: 20%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
     left: -2px;
 }
