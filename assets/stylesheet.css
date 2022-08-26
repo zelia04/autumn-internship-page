@@ -447,6 +447,7 @@ height: 50px;
     color: #FDF7F0;
     opacity: 100%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
 }
 
@@ -457,6 +458,7 @@ height: 50px;
     color: #FDF7F0;
     opacity: 100%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
 }
 
@@ -467,6 +469,7 @@ height: 50px;
     color: #FDF7F0;
     opacity: 100%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
 }
 
@@ -477,8 +480,9 @@ button#slick-slide-control00:after {
     color: #FDF7F0;
     opacity: 20%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
-    left: 0px;
+    left: -2px;
 }
 
 button#slick-slide-control01:after {
@@ -488,6 +492,7 @@ button#slick-slide-control01:after {
     color: #FDF7F0;
     opacity: 20%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
     left: -5px;
 }
@@ -499,6 +504,7 @@ button#slick-slide-control02:after {
     color: #FDF7F0;
     opacity: 20%;
     position: absolute;
+    font-weight: 600;
     top: 130%;
     left: -2px;
 }
@@ -555,6 +561,33 @@ img.card-img-top {
 
 
 /* Responsive */
+
+/* Dot margins */
+@media only screen and (max-width: 1200px){
+    .slick-dots li {
+        margin: 0 140px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .slick-dots li {
+        margin: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .slick-dots li {
+        margin: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .slick-dots li {
+        margin: 0 69px;
+    }
+}
+
+/* end */
 
 @media only screen and (min-width: 567px) and (max-width: 818px){
     .internship_page h3{
