@@ -18,15 +18,15 @@
     background-color:transparent;
 }
 
-.lucretia {
+/* .lucretia {
     margin-left:20px;
     position:relative;                                                               
-}
+} */
 
-.zelia {
+/* .zelia {
     margin-right:20px;
     position:relative;   
-}
+} */
 
 .border-1 {
     width:225px;
@@ -390,6 +390,78 @@ height: 50px;
     opacity: unset;
 }
 
+.slick-dots::before {
+    content: '';
+    height: 2px;
+    position: absolute;
+    background: white;
+    width: 90%;
+    top: 60%;
+    left: 60px;
+    transform: translate(0, -50%);
+}
+
+.slick-active button#slick-slide-control00:after {
+    content: 'JUL';
+    font-size: 20px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 100%;
+    position: absolute;
+    top: 130%;
+}
+
+.slick-active button#slick-slide-control01:after {
+    content: 'AUG';
+    font-size: 20px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 100%;
+    position: absolute;
+    top: 130%;
+}
+
+.slick-active button#slick-slide-control02:after {
+    content: 'SEP';
+    font-size: 20px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 100%;
+    position: absolute;
+    top: 130%;
+}
+
+button#slick-slide-control00:after {
+    content: 'JUL';
+    font-size: 20px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 20%;
+    position: absolute;
+    top: 130%;
+}
+
+button#slick-slide-control01:after {
+    content: 'AUG';
+    font-size: 20px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 20%;
+    position: absolute;
+    top: 130%;
+}
+
+button#slick-slide-control02:after {
+    content: 'SEP';
+    font-size: 20px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 20%;
+    position: absolute;
+    top: 130%;
+}
+/* Cards */
+
 .film-inner{
     background: #fff;
     padding: 15px;
@@ -414,6 +486,18 @@ img.card-img-top {
     border: 0px;
 }
 
+.card-spacing{
+    margin-bottom: 50px;
+}
+.lucretia.film-inner, .lucretia .card{
+    background-color: #F8A261;
+}
+
+.zelia.film-inner, .zelia .card{
+    background-color: #F89353;
+}
+
+
 /* Responsive */
 
 @media only screen and (min-width: 567px) and (max-width: 818px){
@@ -430,7 +514,7 @@ img.card-img-top {
     .border-1, .border-2{
         display: none;
     }
-
+/* 
     .lucretia{
     width: 200px;
     height: 200px;
@@ -446,7 +530,7 @@ img.card-img-top {
     border-radius: 100%;
     border: 3px solid #FDBB6A;
     bottom: 20px;
-    }
+    } */
 
     .text-1 .header {
         position: relative;

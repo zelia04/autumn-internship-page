@@ -56,24 +56,24 @@
     <div class="orangebg">
 
 
-        <h1 class="recollections">Our Recollections</h1>
+        <h1 class="recollections">OUR RECOLLECTIONS</h1>
 
         <div class="container">
 
             <div class="slick-nav">
 
-                <span class="captions one" style="left: 26%;">Jul 2022</span>
+                <!-- <span class="captions one" style="left: 26%;">Jul 2022</span>
 
                 <span class="captions two" style="left: 32%;">Aug 2022</span>
 
-                <span class="captions three" style="left: 38%;">Sept 2022</span>
+                <span class="captions three" style="left: 38%;">Sept 2022</span> -->
 
             </div>
 
             <ul class="slider">
     
             <li>
-                <div class="centralise row">
+                <div class="centralise row" data-title="Jul 2022">
                 <div class="col-md-5 text-center group-picture">
                 <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
                 </div>
@@ -89,12 +89,12 @@
             </li>
     
             <li>
-                <div class="centralise row">
+                <div class="centralise row" data-title="Jul 2022">
                 <div class="col-md-5 text-center group-picture">
                 <img src="assets/images/group.jpeg" class="group_pic" alt="group" />
                 </div>
         
-            <div class="col-md-5 desc">
+            <div class="col-md-5 desc" data-title="Jul 2022">
                 <p class="description">This was both our first time going through a Internship Program from July to September 2022.
                     Our role at OANGLE was being a Web Developer Intern. We have worked under the guidance of Web
                     Developer interns and Project Managers. The time we spent here was an astonishing one as we have
@@ -203,16 +203,16 @@
 
     <div class="container">
         <div class="row">
-        <h1 class="col-12 afterthoughts">Afterthoughts...</h1>
+        <h1 class="col-12 afterthoughts">AFTERTHOUGHTS</h1>
         </div>
 
 <div class="row gx-5 card-spacing">
         <div class="col-sm-12 col-md-6 mb-sm-4 mb-md-0 film-item">
 
-            <div class="film-inner">
+            <div class="lucretia film-inner">
             
-            <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="assets/images/me.jfif" alt="Card image cap">
+            <div class="card">
+            <img class="card-img-top" src="assets/images/orangebg.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Lucretia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -223,10 +223,10 @@
 
     <div class="col-sm-12 col-md-6 mb-sm-4 mb-md-0 film-item">
 
-        <div class="film-inner">
+        <div class="zelia film-inner">
             
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="assets/images/me.jfif" alt="Card image cap">
+        <div class="card">
+            <img class="card-img-top" src="assets/images/orangebg.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Zelia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -311,6 +311,10 @@ $('.slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   appendDots: $('.slick-nav')
+//   customPaging: function (slider, i) {
+// 			var title = $(slider.$slides[i]).data('title');
+// 			return '<span class="dots__item"><span class="dots__number">0'+ Number(i+1) + '</span>' + title + ' </span>';
+// 		}
 //   appendDots: '.slick-dots'
             // prevArrow: '<button type="button" class="slick-prev"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>',
             // nextArrow: '<button type="button" class="slick-next"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>'
