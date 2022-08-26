@@ -563,6 +563,33 @@ img.card-img-top {
 
 /* Responsive */
 
+/* Dot margins */
+@media only screen and (max-width: 1200px){
+    .slick-dots li {
+        margin: 0 140px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .slick-dots li {
+        margin: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .slick-dots li {
+        margin: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .slick-dots li {
+        margin: 0 69px;
+    }
+}
+
+/* end */
+
 @media only screen and (min-width: 567px) and (max-width: 818px){
     .internship_page h3{
         font-size: 18px;
