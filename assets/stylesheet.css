@@ -169,12 +169,13 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
 } */
 
 .afterthoughts{
-    color:#FDBB6A;
+    font-family:"poppin", sans-serif;
+    color:#3F536B;
     text-align:center;
-    font-size:80px;
+    font-size:40px;
     margin-top:35px;
     margin-bottom:35px;
-    font-weight: 800;
+    font-weight:800;
 }
 
 .internship_page h3{
@@ -241,12 +242,6 @@ span.captions {
     padding-left: 50px;
 }
 
-@media only screen and (max-width: 991px){
-    .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled{
-        margin-top: -8%;
-    }
-}
-
 @media only screen and (max-width: 767px){
     .slick-dots li {
     width: 20px;
@@ -254,6 +249,10 @@ span.captions {
     margin: 0 75px;
     padding: 0;
 }
+
+/* .slick-next, .slick-prev {
+    right: -20px;
+} */
 
 .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
     width: 30px !important;
@@ -265,7 +264,7 @@ span.captions {
         width: 80% !important;
         }
 
-        .description, .smalltitle{
+        .description{
             width: 80% !important;
         }
 
@@ -289,18 +288,6 @@ span.captions {
 }
 }
 
-@media only screen and (max-width: 490px){
-    .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled{
-        margin-top: -25%;
-    }
-}
-
-@media only screen and (max-width: 416px){
-    .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled{
-        margin-top: -32%;
-    }
-}
-
 @media only screen and (max-width: 390px){
     .slick-dots li {
     width: 20px;
@@ -308,6 +295,7 @@ span.captions {
     margin: 0 30px;
     padding: 0;
 }
+<<<<<<< Updated upstream
 .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
     margin-top: -36%;
 }
@@ -317,6 +305,8 @@ span.captions {
     .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled{
         margin-top: -49%;
     }
+=======
+>>>>>>> Stashed changes
 }
 
 /* .slick-dots {
@@ -343,7 +333,7 @@ font-family:"poppin", sans-serif;
 color:#FDF7F0;
 font-size:30px;
 font-weight:600;
-width:100%;
+width: 100%;
 }
 
 .description {
@@ -474,7 +464,6 @@ button#slick-slide-control00:after {
     opacity: 20%;
     position: absolute;
     top: 130%;
-    left: 0px;
 }
 
 button#slick-slide-control01:after {
@@ -485,7 +474,6 @@ button#slick-slide-control01:after {
     opacity: 20%;
     position: absolute;
     top: 130%;
-    left: -5px;
 }
 
 button#slick-slide-control02:after {
@@ -496,7 +484,6 @@ button#slick-slide-control02:after {
     opacity: 20%;
     position: absolute;
     top: 130%;
-    left: -2px;
 }
 /* Cards */
 
@@ -513,6 +500,19 @@ button#slick-slide-control02:after {
     flex-direction: column;
     align-items: center;
     min-height: 100%;
+}
+
+.card-title{
+    font-family:"poppin", sans-serif;
+    font-size:30px;
+    font-weight:600;
+    color: #FFF9F2;
+}
+
+.card-text{
+    font-family:"montserrat", sans-serif;
+    font-size:16px;
+    color:#FDF7F0;
 }
 
 img.card-img-top {
