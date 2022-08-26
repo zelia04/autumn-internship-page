@@ -71,7 +71,7 @@ body{
 }
 
 .title1{
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppin", sans-serif;
     color:#FDBB6A;
     text-align:center;
     font-size:80px;
@@ -80,10 +80,10 @@ body{
 }
 
 .title2{
-    font-family: "Poppins", sans-serif;
-    color:#F4766A;
+    font-family: "Poppin", sans-serif;
+    color:#F47655;
     text-align:center;
-    font-size:80px;
+    font-size:32px;
     font-weight: 800;
 }
 
@@ -107,6 +107,7 @@ body{
 }
 
 .recollections{
+    font-family: "Poppin", sans-serif;
     color:#ffffff;
     text-align:center;
     font-size:80px;
@@ -314,7 +315,18 @@ padding-top: 100px;
 width: 100%;
 }
 
+.smalltitle{
+font-family:"poppin", sans-serif;
+color:#FDF7F0;
+font-size:30px;
+font-weight:600px;
+width:100%;
+}
+
 .description {
+font-family:"montserrat", sans-serif;
+color:#FDF7F0;
+font-size:17px;
 width: 100%;
 }
 
@@ -403,7 +415,7 @@ height: 50px;
 
 .slick-active button#slick-slide-control00:after {
     content: 'JUL';
-    font-size: 20px;
+    font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
     opacity: 100%;
@@ -413,7 +425,7 @@ height: 50px;
 
 .slick-active button#slick-slide-control01:after {
     content: 'AUG';
-    font-size: 20px;
+    font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
     opacity: 100%;
@@ -423,7 +435,7 @@ height: 50px;
 
 .slick-active button#slick-slide-control02:after {
     content: 'SEP';
-    font-size: 20px;
+    font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
     opacity: 100%;
@@ -433,7 +445,7 @@ height: 50px;
 
 button#slick-slide-control00:after {
     content: 'JUL';
-    font-size: 20px;
+    font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
     opacity: 20%;
@@ -443,7 +455,7 @@ button#slick-slide-control00:after {
 
 button#slick-slide-control01:after {
     content: 'AUG';
-    font-size: 20px;
+    font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
     opacity: 20%;
@@ -453,7 +465,7 @@ button#slick-slide-control01:after {
 
 button#slick-slide-control02:after {
     content: 'SEP';
-    font-size: 20px;
+    font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
     opacity: 20%;
