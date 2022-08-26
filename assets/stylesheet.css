@@ -169,12 +169,13 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
 } */
 
 .afterthoughts{
-    color:#FDBB6A;
+    font-family:"poppin", sans-serif;
+    color:#3F536B;
     text-align:center;
-    font-size:80px;
+    font-size:40px;
     margin-top:35px;
     margin-bottom:35px;
-    font-weight: 800;
+    font-weight:800;
 }
 
 .internship_page h3{
@@ -534,6 +535,19 @@ img.card-img-top {
 
 .zelia.film-inner, .zelia .card{
     background-color: #F89353;
+}
+
+
+.card-title{
+    font-family:"poppin", sans-serif;
+    font-size:30px;
+    font-weight:600;
+    color: #FFF9F2;
+}
+.card-text{
+    font-family:"montserrat", sans-serif;
+    font-size:16px;
+    color:#FDF7F0;
 }
 
 
