@@ -224,8 +224,12 @@ right: 0px;
     opacity: 20%;
 }
 
+.slick-dots li button {
+    line-height: unset;
+}
+
 .slick-dots li {
-    width: 20px;
+    width: 30px;
     height: 20px;
     margin: 0 170px;
     padding: 0;
@@ -458,7 +462,7 @@ height: 50px;
 }
 
 .slick-active button#slick-slide-control02:after {
-    content: 'SEP';
+    content: 'SEPT';
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
@@ -490,7 +494,7 @@ button#slick-slide-control01:after {
 }
 
 button#slick-slide-control02:after {
-    content: 'SEP';
+    content: 'SEPT';
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
