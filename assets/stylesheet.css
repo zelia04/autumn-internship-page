@@ -245,6 +245,7 @@ span.captions {
     padding-left: 50px;
 }
 
+/* Slick Slider Responsive */
 @media only screen and (max-width: 991px){
     .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled{
         margin-top: -8%;
@@ -284,11 +285,11 @@ span.captions {
 }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 504px){
     .slick-dots li {
     width: 20px;
     height: 20px;
-    margin: 0 50px;
+    margin: 0 28px !important;
     padding: 0;
 }
 }
@@ -434,9 +435,9 @@ height: 50px;
     height: 2px;
     position: absolute;
     background: white;
-    width: 90%;
+    width: 68%;
     top: 60%;
-    left: 60px;
+    left: 172px;
     transform: translate(0, -50%);
 }
 
@@ -506,7 +507,7 @@ button#slick-slide-control02:after {
     position: absolute;
     font-weight: 600;
     top: 130%;
-    left: -2px;
+    left: -6px;
 }
 /* Cards */
 
