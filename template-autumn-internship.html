@@ -308,13 +308,31 @@ $('.slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   appendDots: $('.slick-nav')
-//   customPaging: function (slider, i) {
-// 			var title = $(slider.$slides[i]).data('title');
-// 			return '<span class="dots__item"><span class="dots__number">0'+ Number(i+1) + '</span>' + title + ' </span>';
-// 		}
-//   appendDots: '.slick-dots'
-            // prevArrow: '<button type="button" class="slick-prev"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>',
-            // nextArrow: '<button type="button" class="slick-next"><img src="https://oanglelab.com/oa212-bphsg/wp-content/uploads/2022/08/blue-arrow.png"></button>'
+});
+
+$( document ).ready(function() {
+    console.log( "ready!" );
+
+$('.slider').on('afterChange', function(event, slick, currentSlide){
+  if(currentSlide==0){
+    document.getElementById("slick-slide-control01").parentNode.classList.remove("oa-active");
+    document.getElementById("slick-slide-control00").parentNode.classList.add("oa-active");
+    document.getElementById("slick-slide-control02").parentNode.classList.remove("oa-active");
+  }
+  else if(currentSlide==1){
+    document.getElementById("slick-slide-control01").parentNode.classList.add("oa-active");
+    document.getElementById("slick-slide-control00").parentNode.classList.add("oa-active");
+    document.getElementById("slick-slide-control02").parentNode.classList.remove("oa-active");
+  }
+
+  else if(currentSlide==2){
+  document.getElementById("slick-slide-control01").parentNode.classList.add("oa-active");
+    document.getElementById("slick-slide-control00").parentNode.classList.add("oa-active");
+    document.getElementById("slick-slide-control02").parentNode.classList.add("oa-active");
+}
+
+});
+
 });
 
     </script>

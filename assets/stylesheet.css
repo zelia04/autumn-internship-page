@@ -190,6 +190,39 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
 
 /* Slick Slider */
 
+.slick-dots li button { 
+    font-size: 0px;
+    line-height: 20px;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    color: black;
+    background: #FDF7F0;
+    opacity: 20%;
+    -webkit-font-smoothing: antialiased;
+    transition: all .8s ease-in;
+}
+
+.slick-dots li.slick-active button {
+    background: #FDF7F0;
+    opacity: unset;
+}
+
+.slick-dots li.oa-active::after {
+    background: #FDF7F0;
+    opacity: unset;
+}
+
+/* to keep the first indicator on */
+/* button#slick-slide-control00 {
+    background: #FDF7F0;
+    opacity: unset;
+} */
+
+
 .slick-dotted.slick-slider {
     margin-top: 50px;
 }
@@ -223,13 +256,7 @@ right: 0px;
     opacity: 20%;
 }
 
-.slick-dots li button {
-    line-height: unset;
-}
-
 .slick-dots li {
-    width: 30px;
-    height: 20px;
     margin: 0 170px;
     padding: 0;
 }
@@ -430,60 +457,17 @@ height: 50px;
     opacity: unset;
 }
 
-.slick-dots::before {
-    content: '';
-    height: 2px;
-    position: absolute;
-    background: white;
-    width: 68%;
-    top: 60%;
-    left: 172px;
-    transform: translate(0, -50%);
-}
-
-.slick-active button#slick-slide-control00:after {
-    content: 'JUL';
-    font-size: 16px;
-    z-index: 1;
-    color: #FDF7F0;
-    opacity: 100%;
-    position: absolute;
-    font-weight: 600;
-    top: 130%;
-}
-
-.slick-active button#slick-slide-control01:after {
-    content: 'AUG';
-    font-size: 16px;
-    z-index: 1;
-    color: #FDF7F0;
-    opacity: 100%;
-    position: absolute;
-    font-weight: 600;
-    top: 130%;
-}
-
-.slick-active button#slick-slide-control02:after {
-    content: 'SEPT';
-    font-size: 16px;
-    z-index: 1;
-    color: #FDF7F0;
-    opacity: 100%;
-    position: absolute;
-    font-weight: 600;
-    top: 130%;
-}
-
 button#slick-slide-control00:after {
     content: 'JUL';
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
-    opacity: 20%;
+    opacity: 1;
     position: absolute;
     font-weight: 600;
     top: 130%;
     left: -2px;
+    line-height: normal;
 }
 
 button#slick-slide-control01:after {
@@ -491,11 +475,12 @@ button#slick-slide-control01:after {
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
-    opacity: 20%;
+    opacity: 1;
     position: absolute;
     font-weight: 600;
     top: 130%;
     left: -5px;
+    line-height: normal;
 }
 
 button#slick-slide-control02:after {
@@ -503,12 +488,153 @@ button#slick-slide-control02:after {
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
-    opacity: 20%;
+    opacity: 1;
     position: absolute;
     font-weight: 600;
     top: 130%;
     left: -6px;
+    line-height: normal;
 }
+
+.oa-active button#slick-slide-control00:after {
+    content: 'JUL';
+    font-size: 16px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 1;
+    position: absolute;
+    font-weight: 600;
+    top: 130%;
+}
+
+.oa-active button#slick-slide-control01:after {
+    content: 'AUG';
+    font-size: 16px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 1;
+    position: absolute;
+    font-weight: 600;
+    top: 130%;
+}
+
+.oa-active button#slick-slide-control02:after {
+    content: 'SEPT';
+    font-size: 16px;
+    z-index: 1;
+    color: #FDF7F0;
+    opacity: 1;
+    position: absolute;
+    font-weight: 600;
+    top: 130%;
+}
+
+.oa-active button#slick-slide-control01:before {
+    background: #FDF7F0;
+    opacity: 1;
+}
+
+.oa-active button#slick-slide-control02:before {
+    background: #FDF7F0;
+    opacity: 1;
+}
+
+button#slick-slide-control01:before {
+    content: '';
+    height: 2px;
+    position: absolute;
+    background: #FDF7F0;
+    width: -webkit-fill-available;
+    top: 50%;
+    left: -342px;
+    transform: translate(0, -50%);
+    opacity: 1;
+}
+
+button#slick-slide-control02:before {
+    content: '';
+    height: 2px;
+    position: absolute;
+    background: #FDF7F0;
+    width: -webkit-fill-available;
+    top: 50%;
+    left: -342px;
+    transform: translate(0, -50%);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1200px){
+
+    button#slick-slide-control01:before {
+        width: 1500%;
+        left: -280px;
+    }
+    
+    button#slick-slide-control02:before {
+        width: 1500%;
+        left: -280px;
+    }
+    
+}
+
+@media only screen and (max-width: 992px){
+
+    button#slick-slide-control01:before {
+        width: 200px;
+        left: -200px;
+    }
+    
+    button#slick-slide-control02:before {
+        width: 200px;
+        left: -200px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    button#slick-slide-control01:before {
+        width: 138px;
+        left: -138px;
+    }
+    
+    button#slick-slide-control02:before {
+        width: 138px;
+        left: -138px;
+    }
+    
+}
+@media only screen and (max-width: 504px){
+
+    button#slick-slide-control01:before {
+        width: 56px;
+        left: -56px;
+    }
+    
+    button#slick-slide-control02:before {
+        width: 56px;
+        left: -56px;
+    }
+    
+}
+
+.oa-active {
+    background: #FDF7F0;
+    opacity: unset;
+    font-size: 0px;
+    line-height: 20px;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    border-radius: 100%;
+    text-align: center;
+    color: black;
+    background: #FDF7F0;
+    -webkit-font-smoothing: antialiased;
+}
+
 /* Cards */
 
 .film-inner{
@@ -588,7 +714,7 @@ img.card-img-top {
     }
 }
 
-/* end */
+/* end dots margin */
 
 @media only screen and (min-width: 567px) and (max-width: 818px){
     .internship_page h3{
@@ -604,23 +730,6 @@ img.card-img-top {
     .border-1, .border-2{
         display: none;
     }
-/* 
-    .lucretia{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    border: 3px solid #FDBB6A;
-    bottom: 20px;
-    margin-top: 20px;
-    }
-
-    .zelia{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    border: 3px solid #FDBB6A;
-    bottom: 20px;
-    } */
 
     .text-1 .header {
         position: relative;
@@ -682,4 +791,13 @@ img.card-img-top {
     .internship_page h1{
         font-size: 25px;
     }
+}
+
+.slick-dots li.oa-active button {
+    opacity: 1;
+}
+
+.slick-dots li button:hover, .slick-dots li button:focus {
+    outline: none;
+    transition: all .8s ease-out;
 }
