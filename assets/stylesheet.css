@@ -13,20 +13,20 @@
     box-shadow: 5px 5px 29px 5px rgb(105 56 69 / 31%);
 }
 
-.parent {
+/* .parent {
     position:relative;
     background-color:transparent;
-}
+} 
 
-/* .lucretia {
+ .lucretia {
     margin-left:20px;
     position:relative;                                                               
-} */
+} 
 
-/* .zelia {
+.zelia {
     margin-right:20px;
     position:relative;   
-} */
+} 
 
 .border-1 {
     width:225px;
@@ -59,8 +59,11 @@
 
 .header {
     font-weight:bold;
-}
+} */
 
+.section-1{
+    padding-bottom: 70px;
+}
 
 body{
     background-color: #fdf7f0;
@@ -71,7 +74,7 @@ body{
 }
 
 .title1{
-    font-family: "Poppin", sans-serif;
+    font-family: "Poppins", sans-serif;
     color:#FDBB6A;
     text-align:center;
     font-size:80px;
@@ -80,7 +83,7 @@ body{
 }
 
 .title2{
-    font-family: "Poppin", sans-serif;
+    font-family: "Poppins", sans-serif;
     color:#F47655;
     text-align:center;
     font-size:32px;
@@ -107,12 +110,10 @@ body{
 }
 
 .recollections{
-    font-family: "Poppin", sans-serif;
+    font-family: "Poppins", sans-serif;
     color:#ffffff;
     text-align:center;
     font-size:80px;
-    margin-top:35px;
-    padding-top: 35px;
     font-weight: 800;
 }
 
@@ -169,7 +170,7 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
 } */
 
 .afterthoughts{
-    font-family:"poppin", sans-serif;
+    font-family:"poppins", sans-serif;
     color:#3F536B;
     text-align:center;
     font-size:40px;
@@ -206,7 +207,7 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
     transition: all .5s ease-in;
 }
 
-.slick-dots li.slick-active button {
+.slick-dots li.slick-active button#slick-slide-control00 {
     background: #FDF7F0;
     opacity: unset;
 }
@@ -316,7 +317,7 @@ span.captions {
     .slick-dots li {
     width: 20px;
     height: 20px;
-    margin: 0 28px !important;
+    margin: 0 50px!important;
     padding: 0;
 }
 }
@@ -337,7 +338,7 @@ span.captions {
     .slick-dots li {
     width: 20px;
     height: 20px;
-    margin: 0 30px;
+    margin: 0 30px!important;
     padding: 0;
 }
 .slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
@@ -371,7 +372,7 @@ width: 100%;
 }
 
 .smalltitle{
-font-family:"poppin", sans-serif;
+font-family:"poppins", sans-serif;
 color:#FDF7F0;
 font-size:30px;
 font-weight:600;
@@ -459,6 +460,7 @@ height: 50px;
 
 button#slick-slide-control00:after {
     content: 'JUL';
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
@@ -466,12 +468,13 @@ button#slick-slide-control00:after {
     position: absolute;
     font-weight: 600;
     top: 130%;
-    left: -2px;
+    left: -4px;
     line-height: normal;
 }
 
 button#slick-slide-control01:after {
     content: 'AUG';
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
@@ -479,12 +482,13 @@ button#slick-slide-control01:after {
     position: absolute;
     font-weight: 600;
     top: 130%;
-    left: -5px;
+    left: -7px;
     line-height: normal;
 }
 
 button#slick-slide-control02:after {
-    content: 'SEPT';
+    content: 'SEP';
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     z-index: 1;
     color: #FDF7F0;
@@ -492,11 +496,11 @@ button#slick-slide-control02:after {
     position: absolute;
     font-weight: 600;
     top: 130%;
-    left: -6px;
+    left: -4px;
     line-height: normal;
 }
 
-.oa-active button#slick-slide-control00:after {
+/* .oa-active button#slick-slide-control00:after {
     content: 'JUL';
     font-size: 16px;
     z-index: 1;
@@ -527,7 +531,7 @@ button#slick-slide-control02:after {
     position: absolute;
     font-weight: 600;
     top: 130%;
-}
+} */
 
 .oa-active button#slick-slide-control01:before {
     background: #FDF7F0;
@@ -675,7 +679,7 @@ img.card-img-top {
 
 
 .card-title{
-    font-family:"poppin", sans-serif;
+    font-family:"poppins", sans-serif;
     font-size:30px;
     font-weight:600;
     color: #FFF9F2;
@@ -723,15 +727,17 @@ img.card-img-top {
 }
 
 @media only screen and (max-width: 767px){
-    .internship_page h1{
-        font-size: 40px;
+
+    .smalltitle {
+        margin-top: 16px;
+        font-size: 20px;
     }
 
-    .border-1, .border-2{
+    /* .border-1, .border-2{
         display: none;
-    }
+    } 
 
-    .text-1 .header {
+        .text-1 .header {
         position: relative;
         bottom: 170px;
         font-size: 48px;
@@ -756,26 +762,22 @@ img.card-img-top {
     .text-2 p {
         position: relative;
         bottom: 50px;
-    }
+    } */
 
 }
 
 @media only screen and (max-width: 575px){
-    .text-1 .header{
+    /* .text-1 .header{
         bottom: 150px;
     }
 
     .text-2 .header{
         bottom: 150px;
-    }
-
-    .recollections{
-        padding-bottom: 35px;
-    }
+    } */
 
 }
 
-@media only screen and (max-width: 425px){
+/* @media only screen and (max-width: 425px){
     .text-1 .header{
         font-size: 25px;
         bottom: 50px;
@@ -785,19 +787,34 @@ img.card-img-top {
         font-size: 25px;
         top: -50px;
     }
-}
+} */
 
-@media only screen and (max-width: 390px){
-    .internship_page h1{
-        font-size: 25px;
+@media only screen and (max-width: 767px){
+    .title1{
+        font-size: 35px;
+        text-align: left;
+        margin: auto 0;
+    }
+
+    .title2{
+        text-align: left;
+    }
+
+    .recollections, .afterthoughts{
+        font-size: 28px;
+    }
+
+    .afterthoughts{
+        text-align: left;
     }
 }
+
 
 .slick-dots li.oa-active button {
     opacity: 1;
 }
 
-.slick-dots li button:hover, .slick-dots li button:focus {
+/* .slick-dots li button:hover, .slick-dots li button:focus {
     outline: none;
     transition: all .5s ease-out;
-}
+} */
