@@ -203,7 +203,7 @@ background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www
     background: #FDF7F0;
     opacity: 20%;
     -webkit-font-smoothing: antialiased;
-    transition: all .8s ease-in;
+    transition: all .5s ease-in;
 }
 
 .slick-dots li.slick-active button {
@@ -799,5 +799,5 @@ img.card-img-top {
 
 .slick-dots li button:hover, .slick-dots li button:focus {
     outline: none;
-    transition: all .8s ease-out;
+    transition: all .5s ease-out;
 }
