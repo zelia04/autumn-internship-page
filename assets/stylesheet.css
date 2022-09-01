@@ -572,6 +572,10 @@ button#slick-slide-control02:before {
     color:#FDF7F0;
 }
 
+.internship_page .card-body {
+    padding-left: 0;
+}
+
 
 /* Responsive */
 
