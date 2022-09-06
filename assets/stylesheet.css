@@ -4,10 +4,6 @@
     overflow: hidden;
 }
 
-.banner {
-    max-width: 100%;
-}
-
 .group_pic {
     max-width: 100%;
     box-shadow: 5px 5px 29px 5px rgb(105 56 69 / 31%);
