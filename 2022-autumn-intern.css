@@ -1,0 +1,1756 @@
+
+@charset "utf-8";
+
+.autumn-internship-page {
+	overflow: hidden;
+}
+
+.autumn-internship-page .group_pic {
+	max-width: 100%;
+	box-shadow: 5px 5px 29px 5px rgba(105, 56, 69, 31%);
+}
+
+.autumn-internship-page .section-1 {
+	padding-bottom: 80px;
+}
+
+.autumn-internship-page body {
+	background-color: #fdf7f0;
+}
+
+.autumn-internship-page #header img {
+	text-align: center;
+}
+
+.autumn-internship-page .title1 {
+	font-family: "Poppins", sans-serif;
+	color: #fdbb6a;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 35px;
+	font-weight: 800;
+}
+
+.autumn-internship-page .title2 {
+	font-family: "Poppins", sans-serif;
+	color: #f47655;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.autumn-internship-page .group {
+	margin-top: 35px;
+}
+
+.autumn-internship-page .summary {
+	text-align: left;
+	color: #797979;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+}
+
+.autumn-internship-page .orangebg {
+	background-image: linear-gradient(to right, #fdbb6a, #f8a261, #f89353, #f47655);
+	padding-bottom: 60px;
+}
+
+.autumn-internship-page .recollections {
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 45px;
+}
+
+.autumn-internship-page .card {
+	margin-bottom: 15px;
+}
+
+.autumn-internship-page .centralise {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.autumn-internship-page .afterthoughts {
+	font-family: "poppins", sans-serif;
+	color: #3f536b;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 60px;
+	font-weight: 800;
+}
+
+.autumn-internship-page h3 {
+	font-size: 28px;
+}
+
+.autumn-internship-page .desc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slick-dots li button {
+	font-size: 0px;
+	line-height: 20px;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	text-align: center;
+	color: black;
+	background: #fdf7f0;
+	opacity: 20%;
+	-webkit-font-smoothing: antialiased;
+	transition: all .5s ease-in;
+}
+
+.slick-dots li.slick-active button#slick-slide-control00 {
+	background: #fdf7f0;
+	opacity: unset;
+}
+
+.slick-dots li.oa-active::after {
+	background: #fdf7f0;
+	opacity: unset;
+}
+
+.slick-dotted.slick-slider {
+	margin-top: 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: red;
+}
+
+button.slick-prev.slick-arrow {
+	z-index: 1;
+}
+
+.slick-prev {
+	left: 0px;
+}
+
+.slick-next {
+	right: 0px;
+}
+
+.slick-next {
+	position: absolute;
+	top: initial;
+	right: 0;
+}
+
+button.slick-prev.slick-arrow {
+	position: absolute;
+	top: initial;
+	left: auto;
+}
+
+.slick-nav {
+	position: relative;
+	bottom: 55px;
+}
+
+.slick-dots li button:before {
+	font-family: "slick";
+	font-size: 20px;
+	color: #fdf7f0;
+	opacity: 20%;
+}
+
+.slick-dots li {
+	margin: 0 170px;
+	padding: 0;
+}
+
+ul.slider.slick-initialized.slick-slider.slick-dotted {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+span.captions {
+	position: relative;
+	top: 48px;
+	padding-left: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+	.slick-dots li {
+		width: 20px;
+		height: 20px;
+		margin: 0 75px;
+		padding: 0;
+	}
+	
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		width: 30px !important;
+		height: 30px !important;
+	}
+	
+	.slick-slide img {
+		width: 80% !important;
+	}
+	
+	.description, .smalltitle {
+		width: 80% !important;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.slick-dots li {
+		width: 20px;
+		height: 20px;
+		margin: 0 60px;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 504px) {
+	.slick-dots li {
+		width: 20px;
+		height: 20px;
+		margin: 0 50px !important;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	.slick-dots li {
+		width: 20px;
+		height: 20px;
+		margin: 0 30px !important;
+		padding: 0;
+	}
+}
+
+.autumn-internship-page .container {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.autumn-internship-page .smalltitle {
+	font-family: "poppins", sans-serif;
+	color: #fdf7f0;
+	font-size: 30px;
+	font-weight: 600;
+	width: 100%;
+}
+
+.autumn-internship-page .description {
+	font-family: "montserrat", sans-serif;
+	color: #fdf7f0;
+	font-size: 17px;
+	width: 100%;
+}
+
+.autumn-internship-page .group-picture {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.slick-prev:before, .slick-next:before {
+	content: "";
+}
+
+.slick-prev {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-left-active.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-prev.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-left-inactive.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-prev.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-right-active.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-next.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-right-inactive.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-next.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover, .slick-prev:focus {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-left-active.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-prev:hover.nitro-lazy, .slick-prev:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy, .slick-prev:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy, .slick-prev:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy, .slick-prev:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy, .slick-prev:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-prev:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover, .slick-next:focus {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-right-active.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-next:hover.nitro-lazy, .slick-next:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy, .slick-next:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy, .slick-next:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy, .slick-next:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy, .slick-next:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next:hover.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy, .slick-next:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-right-inactive.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-next.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus {
+	background-image: url("https://cdn-bofan.nitrocdn.com/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/ucNebnJaLaGFlILNdmhzWVVpZQKrEsXv/assets/static/optimized/rev-ac6f0bf/wp-content/uploads/2022/09/internship-arrow-left-inactive.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-prev.slick-disabled:focus.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy.nitro-lazy {
+	background-image: none !important;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #fdf7f0;
+	opacity: unset;
+}
+
+button#slick-slide-control00:after {
+	content: "JUL";
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	z-index: 1;
+	color: #fdf7f0;
+	opacity: 1;
+	position: absolute;
+	font-weight: 600;
+	top: 130%;
+	left: -4px;
+	line-height: normal;
+}
+
+button#slick-slide-control01:after {
+	content: "AUG";
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	z-index: 1;
+	color: #fdf7f0;
+	opacity: 1;
+	position: absolute;
+	font-weight: 600;
+	top: 130%;
+	left: -7px;
+	line-height: normal;
+}
+
+button#slick-slide-control02:after {
+	content: "SEP";
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	z-index: 1;
+	color: #fdf7f0;
+	opacity: 1;
+	position: absolute;
+	font-weight: 600;
+	top: 130%;
+	left: -4px;
+	line-height: normal;
+}
+
+.oa-active button#slick-slide-control01:before {
+	background: #fdf7f0;
+	opacity: 1;
+}
+
+.oa-active button#slick-slide-control02:before {
+	background: #fdf7f0;
+	opacity: 1;
+}
+
+button#slick-slide-control01:before {
+	content: "";
+	height: 2px;
+	position: absolute;
+	background: #fdf7f0;
+	width: -webkit-fill-available;
+	top: 57%;
+	left: -342px;
+	transform: translate(0, -50%);
+	opacity: 1;
+}
+
+button#slick-slide-control02:before {
+	content: "";
+	height: 2px;
+	position: absolute;
+	background: #fdf7f0;
+	width: -webkit-fill-available;
+	top: 57%;
+	left: -336px;
+	transform: translate(0, -50%);
+	opacity: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+	button#slick-slide-control01:before {
+		width: 1500%;
+		left: -280px;
+	}
+	
+	button#slick-slide-control02:before {
+		width: 1500%;
+		left: -276px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	button#slick-slide-control01:before {
+		width: 200px;
+		left: -200px;
+	}
+	
+	button#slick-slide-control02:before {
+		width: 200px;
+		left: -196px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	button#slick-slide-control01:before {
+		width: 138px;
+		left: -138px;
+	}
+	
+	button#slick-slide-control02:before {
+		width: 138px;
+		left: -134px;
+	}
+}
+
+@media only screen and (min-width: 505px) and (max-width: 542px) {
+	button#slick-slide-control02:before {
+		width: 138px;
+		left: -122px;
+	}
+}
+
+@media only screen and (max-width: 504px) {
+	button#slick-slide-control01:before {
+		width: 100px;
+		left: -100px;
+	}
+	
+	button#slick-slide-control02:before {
+		width: 100px;
+		left: -96px;
+	}
+}
+
+@media only screen and (min-width: 390px) and (max-width: 420px) {
+	button#slick-slide-control02:before {
+		width: 100px;
+		left: -86px;
+	}
+}
+
+@media only screen and (min-width: 390px) and (max-width: 390px){
+	button#slick-slide-control01:before {
+		width: 93px !important;
+		left: -93px !important;
+	}
+	
+	button#slick-slide-control02:before {
+		width: 100px !important;
+    	left: -86px !important;
+	}
+	}
+
+@media only screen and (max-width: 390px) {
+	button#slick-slide-control01:before {
+		width: 60px;
+		left: -60px;
+	}
+	
+	button#slick-slide-control02:before {
+		width: 60px;
+		left: -56px;
+	}
+}
+
+.oa-active {
+	background: #fdf7f0;
+	background: #fdf7f0;
+	opacity: unset;
+	font-size: 0px;
+	line-height: 20px;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	content: "Ã¢â‚¬Â¢";
+	border-radius: 100%;
+	text-align: center;
+	color: black;
+	-webkit-font-smoothing: antialiased;
+}
+
+.autumn-internship-page .film-inner {
+	background: #fff;
+	padding: 25px;
+	margin-top: 15px;
+	border-radius: 10px;
+	min-width: -webkit-fill-available;
+	min-height: -webkit-fill-available;
+	box-shadow: 0px 0px 5px 0px rgba(105, 56, 69, 50%);
+}
+
+.autumn-internship-page .film-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100%;
+}
+
+.autumn-internship-page img.card-img-top {
+	border-radius: 7px;
+	box-shadow: 0px 0px 5px 0px rgba(105, 56, 69, 50%);
+}
+
+.autumn-internship-page .card {
+	margin-bottom: 15px;
+	border: 0px;
+}
+
+.autumn-internship-page .card-spacing {
+	margin-bottom: 50px;
+}
+
+.autumn-internship-page .lucretia.film-inner, .lucretia .card {
+	background-color: #f8a261;
+}
+
+.autumn-internship-page .zelia.film-inner, .zelia .card {
+	background-color: #f89353;
+}
+
+.autumn-internship-page .card-title {
+	font-family: "poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff9f2;
+	padding-top: 10px;
+}
+
+.autumn-internship-page .card-text {
+	font-family: "montserrat", sans-serif;
+	font-size: 16px;
+	color: #fdf7f0;
+}
+
+.autumn-internship-page .card-body {
+	padding-left: 0;
+	padding-top: 10px;
+}
+
+.autumn-internship-page .slick-slide::marker {
+	font-size: 0;
+}
+
+button#slick-slide-control00:before {
+	font-size: 0;
+}
+
+li.slick-active {
+	background: transparent;
+}
+
+li.oa-active {
+	background: transparent;
+}
+
+@media only screen and (max-width: 1200px) {
+	.slick-dots li {
+		margin: 0 140px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.slick-dots li {
+		margin: 0 100px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.slick-dots li {
+		margin: 0 70px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.slick-dots li {
+		margin: 0 69px;
+	}
+}
+
+@media only screen and (min-width: 505px) and (max-width: 542px) {
+	.slick-dots li {
+		margin: 0 63px;
+	}
+}
+
+@media only screen and (min-width: 390px) and (max-width: 420px) {
+	.slick-dots li {
+		margin: 0 45px !important;
+	}
+}
+
+@media only screen and (min-width: 567px) and (max-width: 818px) {
+	.autumn-internship-page h3 {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.autumn-internship-page .smalltitle {
+		margin-top: 16px;
+		font-size: 20px;
+	}
+	
+	.autumn-internship-page .lucretia.film-inner {
+		margin-bottom: 35px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.autumn-internship-page .title1 {
+		font-size: 35px;
+		text-align: left;
+		margin: auto 0;
+	}
+	
+	.autumn-internship-page .title2 {
+		text-align: left;
+	}
+	
+	.autumn-internship-page .recollections, .afterthoughts {
+		font-size: 28px;
+	}
+	
+	.autumn-internship-page .afterthoughts {
+		text-align: left;
+		margin-bottom: 20px;
+		font-size: 28px;
+	}
+	
+	.autumn-internship-page .autumn-internship-page .container {
+		padding-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 415px){
+	.autumn-internship-page .container {
+		padding-top: 100px !important;
+	}
+
+	.autumn-internship-page h1.title2 {
+		margin-bottom: 0;
+	}
+}
+
+.slick-dots li.oa-active button {
+	opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -35%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -26%;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -55%;
+	}
+}
+
+@media only screen and (max-width: 416px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -61%;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -65%;
+	}
+}
+
+@media only screen and (max-width: 381px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -93%;
+	}
+}
+
+@media only screen and (max-width: 336px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -75%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.slick-prev, .slick-prev.slick-disabled, .slick-next, .slick-next.slick-disabled {
+		margin-top: -88%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.autumn-internship-page .container {
+		margin: 0 22px;
+		max-width: 95%;
+	}
+	
+	.autumn-internship-page .summary {
+		padding-left: 15px;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.autumn-internship-page .container {
+		margin: 0 18px;
+		max-width: 95%;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.autumn-internship-page .container {
+		margin: 0 22px;
+		max-width: 93%;
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.autumn-internship-page .container {
+		margin: 0 16px;
+		max-width: 93%;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.autumn-internship-page .container {
+		margin: 0 20px;
+		max-width: 90%;
+	}
+}

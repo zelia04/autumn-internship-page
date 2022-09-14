@@ -1,27 +1,27 @@
 @charset "utf-8";
 
-.internship_page {
+.autumn-internship-page {
     overflow: hidden;
 }
 
-.group_pic {
+.autumn-internship-page .group_pic {
     max-width: 100%;
     box-shadow: 5px 5px 29px 5px rgb(105 56 69 / 31%);
 }
 
-.section-1{
+.autumn-internship-page .section-1{
     padding-bottom: 70px;
 }
 
-body{
+.autumn-internship-page body{
     background-color: #fdf7f0;
 }
 
-#header img{
+.autumn-internship-page #header img{
     text-align:center;
 }
 
-.title1{
+.autumn-internship-page .title1{
     font-family: "Poppins", sans-serif;
     color:#FDBB6A;
     text-align:center;
@@ -30,7 +30,7 @@ body{
     font-weight: 800;
 }
 
-.title2{
+.autumn-internship-page .title2{
     font-family: "Poppins", sans-serif;
     color:#F47655;
     text-align:center;
@@ -38,11 +38,11 @@ body{
     font-weight: 800;
 }
 
-.group{
+.autumn-internship-page .group{
     margin-top:35px;
 }
 
-.summary{
+.autumn-internship-page .summary{
     text-align: left;
     color: #797979;
     font-family: "Montserrat", sans-serif;
@@ -52,12 +52,12 @@ body{
     justify-content: center;
 }
 
-.orangebg{
+.autumn-internship-page .orangebg{
     background-image: linear-gradient(to right, #FDBB6A, #F8A261, #F89353, #F47655);
     padding-bottom: 50px;
 }
 
-.recollections{
+.autumn-internship-page .recollections{
     font-family: "Poppins", sans-serif;
     color:#ffffff;
     text-align:center;
@@ -66,17 +66,17 @@ body{
     margin-bottom: 45px;
 }
 
-.internship_page .card {
+.autumn-internship-page .card {
     margin-bottom: 15px;
 }
 
-.centralise {
+.autumn-internship-page .centralise {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.afterthoughts{
+.autumn-internship-page .afterthoughts{
     font-family:"poppins", sans-serif;
     color:#3F536B;
     text-align:center;
@@ -85,11 +85,11 @@ body{
     font-weight:800;
 }
 
-.internship_page h3{
+.autumn-internship-page h3{
     font-size: 28px;
 }
 
-.desc {
+.autumn-internship-page .desc {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -259,7 +259,7 @@ span.captions {
     }
 }
 
-.internship_page .container {
+.autumn-internship-page .container {
 padding-top: 80px;
 }
 
@@ -267,7 +267,7 @@ padding-top: 80px;
 width: 100%;
 }
 
-.smalltitle{
+.autumn-internship-page .smalltitle{
 font-family:"poppins", sans-serif;
 color:#FDF7F0;
 font-size:30px;
@@ -275,14 +275,14 @@ font-weight:600;
 width:100%;
 }
 
-.description {
+.autumn-internship-page .description {
 font-family:"montserrat", sans-serif;
 color:#FDF7F0;
 font-size:17px;
 width: 100%;
 }
 
-.group-picture {
+.autumn-internship-page .group-picture {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -518,7 +518,7 @@ button#slick-slide-control02:before {
 
 /* Cards */
 
-.internship_page .film-inner{
+.autumn-internship-page .film-inner{
     background: #fff;
     padding: 15px;
     margin-top: 15px;
@@ -528,48 +528,48 @@ button#slick-slide-control02:before {
     box-shadow: 0px 0px 5px 0px rgb(105 56 69 / 50%);
 }
 
-.internship_page .film-item {
+.autumn-internship-page .film-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100%;
 }
 
-.internship_page img.card-img-top {
+.autumn-internship-page img.card-img-top {
     border-radius: 7px;
     box-shadow: 0px 0px 5px 0px rgb(105 56 69 / 50%);
 }
 
-.internship_page .card {
+.autumn-internship-page .card {
     margin-bottom: 15px;
     border: 0px;
 }
 
-.card-spacing{
+.autumn-internship-page .card-spacing{
     margin-bottom: 50px;
 }
-.lucretia.film-inner, .lucretia .card{
+.autumn-internship-page .lucretia.film-inner, .lucretia .card{
     background-color: #F8A261;
 }
 
-.zelia.film-inner, .zelia .card{
+.autumn-internship-page .zelia.film-inner, .zelia .card{
     background-color: #F89353;
 }
 
 
-.card-title{
+.autumn-internship-page .card-title{
     font-family:"poppins", sans-serif;
     font-size:30px;
     font-weight:600;
     color: #FFF9F2;
 }
-.card-text{
+.autumn-internship-page .card-text{
     font-family:"montserrat", sans-serif;
     font-size:16px;
     color:#FDF7F0;
 }
 
-.internship_page .card-body {
+.autumn-internship-page .card-body {
     padding-left: 0;
 }
 
@@ -604,44 +604,44 @@ button#slick-slide-control02:before {
 /* end dots margin */
 
 @media only screen and (min-width: 567px) and (max-width: 818px){
-    .internship_page h3{
+    .autumn-internship-page h3{
         font-size: 18px;
     }
 }
 
 @media only screen and (max-width: 767px){
 
-    .smalltitle {
+    .autumn-internship-page .smalltitle {
         margin-top: 16px;
         font-size: 20px;
     }
 
-    .lucretia.film-inner {
+    .autumn-internship-page .lucretia.film-inner {
         margin-bottom: 35px;
     }
 }
 
 @media only screen and (max-width: 767px){
-    .title1{
+    .autumn-internship-page .title1{
         font-size: 35px;
         text-align: left;
         margin: auto 0;
     }
 
-    .title2{
+    .autumn-internship-page .title2{
         text-align: left;
     }
 
-    .recollections, .afterthoughts{
+    .autumn-internship-page .recollections, .afterthoughts{
         font-size: 28px;
     }
 
-    .afterthoughts{
+    .autumn-internship-page .afterthoughts{
         text-align: left;
         margin-bottom: 20px;
     }
     
-    .internship_page .container{
+    .autumn-internship-page .autumn-internship-page .container{
         padding-top: 50px;
     }
 
